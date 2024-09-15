@@ -2,7 +2,7 @@ import express from 'express';
 import fileRoutes from './routes/fileRoutes'; // Импорт маршрутов
 
 const app = express();
-const port = 3000;
+const port = 5000;
 
 app.use('/api/files', fileRoutes); // Префикс для маршрутов
 
